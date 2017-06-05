@@ -8,7 +8,7 @@ The solution should solve the problem for any list of Integers and groups (provi
 
 Sequence of aproaches:
 
-1)In the first minutes I developed a function that calculated the distance from each number to all others (adjacency matrix). Then I realised that it was going to be ambiguous the way that I am going to determine where am I going to separate the main group in 'k' sub-groups. There I realized that there was some theory that I dind't knew at the time.
+1)In the first minutes I developed a function that calculated the distance from each number to all others (adjacency matrix). Then I realised that it was going to be ambiguous the way that I am going to determine where am I going to separate the main group in 'k' sub-groups. There I realised that there was some theory that I dind't knew at the time.
 
 2)I started my research, and I started to find somethings about "Clustering". At that moment I tried the Prim's algorithm (taking the main group ordered as my minimum spanning tree), but it turned out to be a bad solution for the problem.
 
